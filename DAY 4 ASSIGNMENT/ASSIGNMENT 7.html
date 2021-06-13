@@ -1,0 +1,22 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>assignment 7</title>
+</head>
+<body>
+<h1>simple subscription form</h1>
+<form>
+<label for="email">emailid</label>
+<input name="email" id="email" placeholder="enter your email " type="email">
+</form>
+<button onclick="changedata()">submit</button>
+<p id="result" style="color: darkblue;"></p>
+<script>
+function changedata() {
+// body...
+var a=document.getElementById('email').value;
+document.getElementById('result').innerHTML=a;
+}
+</script>
+</body>
+</html>
